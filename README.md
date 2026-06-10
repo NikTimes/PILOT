@@ -4,6 +4,14 @@ Welcome to **PILOT**, a hands-on framework for training and benchmarking physics
 
 While the documentation is still a work in progress, a detailed explanation of most modules in the source code can be found in `docs/PILOT.pdf`.
 
+### To Do List 
+
+- Implement Doxygen for documentation 
+- Remove WANDB dependencies and make them optional through implementation of Logger classes
+- Add new training visualization tools compatible with new Logger Classes
+- Make a physics informed loss template for ease of PINN implementation (current one is custom)
+- Make PILOT compatible with non ODE sythetic data such as LHC Collider Data, CAMB, CLASS...
+
 ## Download and usage instructions
 ### Option 1: Clone github repository using `git clone`
 
@@ -129,3 +137,4 @@ The configurations that yielded the best results after running `*_sweep.py` were
 Files named `*_benchmark.ipynb` contain full benchmarking workflows for evaluating the learned operator using PILOT and the saved weights in `/weights`. These notebooks are the recommended entry point for verifying that the codebase is functioning correctly. 
 
 Note, that in order to use the jupyter notebooks in an interface such as `spyder` you need to ensure that you have the required packages to support it. In the case of `spyder` you can follow how to use notebook instructions here: https://pypi.org/project/spyder-notebook/
+
