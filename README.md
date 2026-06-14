@@ -6,7 +6,7 @@ While the documentation is still a work in progress, a detailed explanation of m
 
 ### To Do List 
 
-- Implement Doxygen for documentation 
+- Implement Doxygen or Sphynx for documentation 
 - Remove WANDB dependencies and make them optional through implementation of Logger classes
 - Add new training visualization tools compatible with new Logger Classes
 - Make a physics informed loss template for ease of PINN implementation (current one is custom)
